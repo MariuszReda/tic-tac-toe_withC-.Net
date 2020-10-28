@@ -141,17 +141,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(585, 66);
+            this.label1.Location = new System.Drawing.Point(585, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 51);
+            this.label1.Size = new System.Drawing.Size(157, 51);
             this.label1.TabIndex = 9;
-            this.label1.Text = "gracz:";
+            this.label1.Text = "Player:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(733, 66);
+            this.label2.Location = new System.Drawing.Point(745, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 51);
             this.label2.TabIndex = 10;
@@ -162,11 +162,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(636, 263);
+            this.label3.Location = new System.Drawing.Point(622, 280);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 51);
+            this.label3.Size = new System.Drawing.Size(192, 51);
             this.label3.TabIndex = 11;
-            this.label3.Text = "wynik";
+            this.label3.Text = "RESULT";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
@@ -216,7 +216,7 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(215, 53);
             this.button10.TabIndex = 16;
-            this.button10.Text = "Nowa gra";
+            this.button10.Text = "New Game";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 

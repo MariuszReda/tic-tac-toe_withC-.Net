@@ -8,3 +8,13 @@ C:\Users\raj68\Desktop\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\ob
 C:\Users\raj68\Desktop\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.csproj.CoreCompileInputs.cache
 C:\Users\raj68\Desktop\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.exe
 C:\Users\raj68\Desktop\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.pdb
+C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\bin\Debug\Kółko.krzyzyk.exe.config
+C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\bin\Debug\Kółko.krzyzyk.exe
+C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\bin\Debug\Kółko.krzyzyk.pdb
+C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.csprojAssemblyReference.cache
+C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.Form1.resources
+C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.Properties.Resources.resources
+C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.csproj.GenerateResource.cache
+C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.csproj.CoreCompileInputs.cache
+C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.exe
+C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.pdb

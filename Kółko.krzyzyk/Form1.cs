@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Kółko.krzyzyk
@@ -16,174 +9,165 @@ namespace Kółko.krzyzyk
         {
             InitializeComponent();
         }
-        bool gracz1 = true;
-        int ruch = 0;
+        bool player1 = true;
+        int movement = 0;
         private void button5_Click(object sender, EventArgs e)
         {
-            ruch++;
-            ((Button)sender).Text = gracz1 ? "O" : "X";
-            ((Button)sender).Enabled = false;
-            if (ruch >= 5)
+            movement++;
+            ((Button)sender).Text = player1 ? "O" : "X";
+            if (movement >= 5)
             {
-                Sprwadz();
+                Checking();
             }
-            gracz1 = !gracz1;
-            label2.Text = gracz1 ? "O" : "X";
+            player1 = !player1;
+            label2.Text = player1 ? "O" : "X";
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            ruch++;
-            ((Button)sender).Text = gracz1 ? "O" : "X";
-            ((Button)sender).Enabled = false;
-            if (ruch >= 5)
+            movement++;
+            ((Button)sender).Text = player1 ? "O" : "X";
+            if (movement >= 5)
             {
-                Sprwadz();
+                Checking();
             }
-            gracz1 = !gracz1;
-            label2.Text = gracz1 ? "O" : "X";
+            player1 = !player1;
+            label2.Text = player1 ? "O" : "X";
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            ruch++;
-            ((Button)sender).Text = gracz1 ? "O" : "X";
-            ((Button)sender).Enabled = false;
-            if (ruch >= 5)
+            movement++;
+            ((Button)sender).Text = player1 ? "O" : "X";
+            if (movement >= 5)
             {
-                Sprwadz();
+                Checking();
             }
-            gracz1 = !gracz1;
-            label2.Text = gracz1 ? "O" : "X";
+            player1 = !player1;
+            label2.Text = player1 ? "O" : "X";
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            ruch++;
-            ((Button)sender).Text = gracz1 ? "O" : "X";
-            ((Button)sender).Enabled = false;
-            if (ruch >= 5)
+            movement++;
+            ((Button)sender).Text = player1 ? "O" : "X";
+            if (movement >= 5)
             {
-                Sprwadz();
+                Checking();
             }
-            gracz1 = !gracz1;
-            label2.Text = gracz1 ? "O" : "X";
+            player1 = !player1;
+            label2.Text = player1 ? "O" : "X";
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            ruch++;
-            ((Button)sender).Text = gracz1 ? "O" : "X";
-            ((Button)sender).Enabled = false;
-            if (ruch >= 5)
+            movement++;
+            ((Button)sender).Text = player1 ? "O" : "X";
+            if (movement >= 5)
             {
-                Sprwadz();
+                Checking();
             }
-            gracz1 = !gracz1;
-            label2.Text = gracz1 ? "O" : "X";
+            player1 = !player1;
+            label2.Text = player1 ? "O" : "X";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            ruch++;
-            ((Button)sender).Text = gracz1 ? "O" : "X";
-            ((Button)sender).Enabled = false;
-            if (ruch >= 5)
+            movement++;
+            ((Button)sender).Text = player1 ? "O" : "X";
+            if (movement >= 5)
             {
-                Sprwadz();
+                Checking();
             }
-            gracz1 = !gracz1;
-            label2.Text = gracz1 ? "O" : "X";
+            player1 = !player1;
+            label2.Text = player1 ? "O" : "X";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ruch++;
-            ((Button)sender).Text = gracz1 ? "O" : "X";
-            ((Button)sender).Enabled = false;
-            if (ruch >= 5)
+             movement++;
+            ((Button)sender).Text = player1 ? "O" : "X";
+            if (movement >= 5)
             {
-                Sprwadz();
+                Checking();
             }
-            gracz1 = !gracz1;
-            label2.Text = gracz1 ? "O" : "X";
+            player1 = !player1;
+            label2.Text = player1 ? "O" : "X";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ruch++;
-            ((Button)sender).Text = gracz1 ? "O" : "X";
-            ((Button)sender).Enabled = false;
-            if (ruch >= 5)
+            movement++;
+            ((Button)sender).Text = player1 ? "O" : "X";
+            if (movement >= 5)
             {
-                Sprwadz();
+                Checking();
             }
-            gracz1 = !gracz1;
-            label2.Text = gracz1 ? "O" : "X";
+            player1 = !player1;
+            label2.Text = player1 ? "O" : "X";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ruch++;
-            ((Button)sender).Text = gracz1 ? "O" : "X";
-            ((Button)sender).Enabled = false;
-            if(ruch>=5)
+            movement++;
+            ((Button)sender).Text = player1 ? "O" : "X";
+            if(movement>=5)
             {
-                Sprwadz();
+                Checking();
             }
-            gracz1 = !gracz1;
-            label2.Text = gracz1 ? "O" : "X";
+            player1 = !player1;
+            label2.Text = player1 ? "O" : "X";
         }
 
-        private void Sprwadz()
+        private void Checking()
         {
             if (button1.Text != "" && button1.Text == button2.Text && button2.Text == button3.Text)
             {
-                Wygrana();
+                Win();
             }
             else if (button4.Text != "" && button4.Text == button5.Text && button5.Text == button6.Text)
             {
-                Wygrana();
+                Win();
             }
             else if (button7.Text != "" && button7.Text == button8.Text && button8.Text == button9.Text)
             {
-                Wygrana();
+                Win();
             }
             else if (button1.Text != "" && button1.Text == button4.Text && button4.Text == button7.Text)
             {
-                Wygrana();
+                Win();
             }
             else if (button2.Text != "" && button2.Text == button5.Text && button5.Text == button8.Text)
             {
-                Wygrana();
+                Win();
             }
             else if (button3.Text != "" && button3.Text == button6.Text && button6.Text == button9.Text)
             {
-                Wygrana();
+                Win();
             }
             else if (button1.Text != "" && button1.Text == button5.Text && button5.Text == button9.Text)
             {
-                Wygrana();
+                Win();
             }
             else if (button3.Text !="" && button3.Text==button5.Text && button5.Text==button7.Text)
             {
-                Wygrana();
+                Win();
             }
-            else if(ruch==9)
+            else if(movement==9)
             {
-                MessageBox.Show("remis", "koniec gry", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                restaruj();
+                MessageBox.Show("Drow", "Game over", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                rest();
             }
         }
 
-        private void Wygrana()
+        private void Win()
         {
-            MessageBox.Show("wygrywa gracz" + (gracz1 ? "O" : "X"), "koniec gry", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            if (gracz1)
+            MessageBox.Show("Winning player " + (player1 ? "O" : "X"), "Game over", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (player1)
                 label6.Text = ((int.Parse(label6.Text)) + 1).ToString();
             else
                 label7.Text = ((int.Parse(label7.Text)) + 1).ToString();
-            restaruj();
+            rest();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -198,16 +182,16 @@ namespace Kółko.krzyzyk
 
         private void button10_Click(object sender, EventArgs e)
         {
-            restaruj();
+            rest();
             label6.Text=("0");
             label7.Text=("0");
             label1.Text = ("X");
-            gracz1 = true;
+            player1 = true;
         }
 
-        private void restaruj()
+        private void rest()
         {
-            ruch = 0;
+            movement = 0;
             Button[] all = new Button[9];
             all[0] = button1;
             all[1] = button2;
@@ -220,7 +204,6 @@ namespace Kółko.krzyzyk
             all[8] = button9;
             foreach(Button b in all)
             {
-                b.Enabled = true;
                 b.Text = "";
             }
         }
