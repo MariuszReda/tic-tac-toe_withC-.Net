@@ -67,10 +67,9 @@
                   //  for all array fields, change the text
                   //  ==================================================
                     }
-                  ```
-                  
-![Animated GIF-downsized_large (3)](https://user-images.githubusercontent.com/69969867/97380504-7a0a8380-18c7-11eb-8064-57eab0dea646.gif)
-        
+```
+![Animated GIF-downsized_large (3)](https://user-images.githubusercontent.com/69969867/97380717-f0a78100-18c7-11eb-9bfa-2f71ab1e2e69.gif)
+    
           
             
         
