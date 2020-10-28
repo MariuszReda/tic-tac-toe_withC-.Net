@@ -1,6 +1,6 @@
 # tic-tac-toe_withC-.Net
 ```cs
-##namespace Kółko.krzyzyk
+
     partial class Form1
     {
       //  ================================================
@@ -27,12 +27,12 @@
             public partial class Form1 : Form
             {
             //  ==================================================
-            //  bool gracz1 = true;
+            //  bool player1 = true;
             //  int movement = 0; 
             //  --------------------------------------------------
             //  Board made of buttons
             //  Benefits of using the conditional ?: (ternary) operator for event handler
-            //  ((Button)sender).Text = gracz1 ? "O" : "X";
+            //  ((Button)sender).Text = player1 ? "O" : "X";
             //  Increments a variable 
             //  If(movement>=5) 
             //  Go function Checking()
@@ -67,7 +67,9 @@
                   //  for all array fields, change the text
                   //  ==================================================
                     }
+                  ```
                   
+![Animated GIF-downsized_large (3)](https://user-images.githubusercontent.com/69969867/97380504-7a0a8380-18c7-11eb-8064-57eab0dea646.gif)
         
           
             
