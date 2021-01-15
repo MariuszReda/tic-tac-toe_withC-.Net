@@ -13,111 +13,64 @@ namespace Kółko.krzyzyk
         int movement = 0;
         private void button5_Click(object sender, EventArgs e)
         {
-            movement++;
-            ((Button)sender).Text = player1 ? "O" : "X";
-            if (movement >= 5)
-            {
-                Checking();
-            }
-            player1 = !player1;
-            label2.Text = player1 ? "O" : "X";
+            traffic(sender);
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            movement++;
-            ((Button)sender).Text = player1 ? "O" : "X";
-            if (movement >= 5)
-            {
-                Checking();
-            }
-            player1 = !player1;
-            label2.Text = player1 ? "O" : "X";
+            traffic(sender);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            movement++;
-            ((Button)sender).Text = player1 ? "O" : "X";
-            if (movement >= 5)
-            {
-                Checking();
-            }
-            player1 = !player1;
-            label2.Text = player1 ? "O" : "X";
+            traffic(sender);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            movement++;
-            ((Button)sender).Text = player1 ? "O" : "X";
-            if (movement >= 5)
-            {
-                Checking();
-            }
-            player1 = !player1;
-            label2.Text = player1 ? "O" : "X";
+            traffic(sender);
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            movement++;
-            ((Button)sender).Text = player1 ? "O" : "X";
-            if (movement >= 5)
-            {
-                Checking();
-            }
-            player1 = !player1;
-            label2.Text = player1 ? "O" : "X";
+            traffic(sender);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            movement++;
-            ((Button)sender).Text = player1 ? "O" : "X";
-            if (movement >= 5)
-            {
-                Checking();
-            }
-            player1 = !player1;
-            label2.Text = player1 ? "O" : "X";
+            traffic(sender);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-             movement++;
-            ((Button)sender).Text = player1 ? "O" : "X";
-            if (movement >= 5)
-            {
-                Checking();
-            }
-            player1 = !player1;
-            label2.Text = player1 ? "O" : "X";
+            traffic(sender);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            movement++;
-            ((Button)sender).Text = player1 ? "O" : "X";
-            if (movement >= 5)
-            {
-                Checking();
-            }
-            player1 = !player1;
-            label2.Text = player1 ? "O" : "X";
+            traffic(sender);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            movement++;
-            ((Button)sender).Text = player1 ? "O" : "X";
-            if(movement>=5)
-            {
-                Checking();
-            }
-            player1 = !player1;
-            label2.Text = player1 ? "O" : "X";
+            traffic(sender);
         }
+
+        private void traffic (object sender)
+        {
+            if (((Button)sender).Text != "O" && ((Button)sender).Text != "X")
+            {
+                movement++;
+                ((Button)sender).Text = player1 ? "O" : "X";
+                if (movement >= 5)
+                {
+                    Checking();
+                }
+                player1 = !player1;
+                label2.Text = player1 ? "O" : "X";
+            }
+        }
+
 
         private void Checking()
         {
@@ -162,7 +115,7 @@ namespace Kółko.krzyzyk
 
         private void Win()
         {
-            MessageBox.Show("Winning player " + (player1 ? "O" : "X"), "Game over", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Winning player " + (player1 ? " O" : " X"), " Game over", MessageBoxButtons.OK, MessageBoxIcon.Information);
             if (player1)
                 label6.Text = ((int.Parse(label6.Text)) + 1).ToString();
             else

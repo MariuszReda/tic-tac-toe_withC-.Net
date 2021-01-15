@@ -8,3 +8,13 @@ C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kó�
 C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\obj\Debug\tic-tac-toe.csproj.CoreCompileInputs.cache
 C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.exe
 C:\Users\mariu\Desktop\programowanie\aplikacje okienkowe C#\Kółko.krzyzyk\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.pdb
+C:\Users\mariu\Documents\GitHub\tic-tac-toe_withC-.Net\Kółko.krzyzyk\bin\Debug\Kółko.krzyzyk.exe.config
+C:\Users\mariu\Documents\GitHub\tic-tac-toe_withC-.Net\Kółko.krzyzyk\bin\Debug\Kółko.krzyzyk.exe
+C:\Users\mariu\Documents\GitHub\tic-tac-toe_withC-.Net\Kółko.krzyzyk\bin\Debug\Kółko.krzyzyk.pdb
+C:\Users\mariu\Documents\GitHub\tic-tac-toe_withC-.Net\Kółko.krzyzyk\obj\Debug\tic-tac-toe.csprojAssemblyReference.cache
+C:\Users\mariu\Documents\GitHub\tic-tac-toe_withC-.Net\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.Form1.resources
+C:\Users\mariu\Documents\GitHub\tic-tac-toe_withC-.Net\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.Properties.Resources.resources
+C:\Users\mariu\Documents\GitHub\tic-tac-toe_withC-.Net\Kółko.krzyzyk\obj\Debug\tic-tac-toe.csproj.GenerateResource.cache
+C:\Users\mariu\Documents\GitHub\tic-tac-toe_withC-.Net\Kółko.krzyzyk\obj\Debug\tic-tac-toe.csproj.CoreCompileInputs.cache
+C:\Users\mariu\Documents\GitHub\tic-tac-toe_withC-.Net\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.exe
+C:\Users\mariu\Documents\GitHub\tic-tac-toe_withC-.Net\Kółko.krzyzyk\obj\Debug\Kółko.krzyzyk.pdb
